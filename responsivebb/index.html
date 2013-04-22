@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+
+		<title>Firefox OS Building Blocks - @rnowm</title>
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<link rel="stylesheet" href="files/css/reveal.css">
+		<link rel="stylesheet" href="files/css/actions.css">
+		<link rel="stylesheet" href="files/css/examples.css">
+		<link rel="stylesheet" href="files/css/bffos.css" id="theme">  
+
+	<body screen_capture_injected="true">
+
+		<div class="reveal linear">
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+				<section style="display: block;" class="present">
+					<h1><strong>Firefox</strong> OS</h1>
+					<h2>Building Blocks</h2>
+					<p>por Arnau March - @RnowM</p>
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Building que?</h2>
+					<p class="fragment"><strong>Building Blocks:</strong> <br/> Componentes de UI reutilizables</p>
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Cómo empezó esto?</h2>
+					<img class="fragment" src="files/images/Screenshots.png">
+					<p class="fragment">cientos de visuales creados</p>
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Common Controls</h2>
+					<img class="fragment" src="files/images/components.png">
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Siguiente paso</h2>
+					<p class="fragment">Convertir todo a HTML y CSS</p>
+					<a class="fragment" target="_blank" href="https://github.com/mozilla-b2g/gaia/tree/master/shared/style">https://github.com/mozilla-b2g/gaia/tree/master/shared/style</a>
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Podría ser más bonito?</h2>
+					<a class="fragment" target="_blank" href="http://buildingfirefoxos.com">http://buildingfirefoxos.com</a>
+				</section>
+
+				<!-- EXAMPLES  -->
+				<section style="display: none;" class="future">
+					<h2>Ejemplo 1: <strong>headers</strong></h2>
+					<iframe src="files/html/headers.html" class="example"></iframe>
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Ejemplo 2: <strong>listados</strong></h2>
+					<iframe src="files/html/lists.html" class="example"></iframe>
+				</section>
+
+				<section style="display: none;" class="future">
+					<h2>Ejemplo 3: <strong>tabs</strong></h2>
+					<iframe src="files/html/tabs.html" class="example"></iframe>
+				</section>
+
+				<!-- END  -->
+				<section style="display: none;" class="future">
+					<h2>Gracias!</h2>
+					<p>Más info en twitter: @RnowM</p>
+					<p>y en la web: http://buildingfirefoxos.com</p>
+				</section>
+
+			</div>
+		
+
+		<script src="files/js/head.min.js"></script>
+		<script src="files/js/reveal.min.js"></script>
+
+		<!-- Custom Uilts -->
+		<script src="files/js/reveal.utils.js"></script>
+
+		<!-- Remote control scripts -->
+		<script src="files/js/socket.io.js"></script>
+		<script src="files/js/remote.config.js"></script>
+		<script src="files/js/remote.slave.js"></script>
+
+		<script>
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'linear', // default/cube/page/concave/zoom/linear/none
+			});
+		</script>
+
+</body></html>
