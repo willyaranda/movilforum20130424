@@ -1,0 +1,3 @@
+[submodule "responsivebb/responsive-slides"]
+	path = responsivebb/responsive-slides
+	url = https://github.com/lodr/responsive-slides.git
